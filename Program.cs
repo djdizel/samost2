@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace samost2
 {
+    enum Frequency
+    {
+        Weekly,
+        Monthly,
+        Yearly
+    }
     internal class Program
     {
         static void Main(string[] args)
